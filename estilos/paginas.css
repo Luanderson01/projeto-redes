@@ -12,8 +12,13 @@ body{
     
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
 img{
-    width: 92vw;
+    width: 100vw;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -23,10 +28,11 @@ img{
 a{
     background-color: rgb(161, 20, 20);
     color: white;
-    padding: 10px 73px 3px;
+    padding: 10px 90px 5px;
     font-weight: bold;
     text-decoration: none;
     text-shadow: 3px 2px 5px black;
+    text-align: center;
 
 }
 a:hover{
